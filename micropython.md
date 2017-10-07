@@ -2,7 +2,7 @@
 
 https://docs.micropython.org/en/latest/esp8266/index.html
 
-## Add to boot.py
+
 
 ## Handy commands:
 
@@ -10,6 +10,8 @@ https://docs.micropython.org/en/latest/esp8266/index.html
 
 * picocom
   - exit: Ctrl-A-X
+
+## Add to boot.py
 
 ```
 def do_connect():
