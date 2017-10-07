@@ -4,6 +4,7 @@ https://docs.micropython.org/en/latest/esp8266/index.html
 
 ## Add to boot.py
 
+```
 def do_connect():
     import network
     sta_if = network.WLAN(network.STA_IF)
@@ -14,4 +15,4 @@ def do_connect():
         while not sta_if.isconnected():
             pass
     print('network config:', sta_if.ifconfig())
-    
+```    
