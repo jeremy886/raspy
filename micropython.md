@@ -4,6 +4,13 @@ https://docs.micropython.org/en/latest/esp8266/index.html
 
 ## Add to boot.py
 
+## Handy commands:
+
+### Linux
+
+* picocom
+  - exit: Ctrl-A-X
+
 ```
 def do_connect():
     import network
