@@ -1,4 +1,8 @@
-# Add to boot.py
+# Tutorial to read
+
+https://docs.micropython.org/en/latest/esp8266/index.html
+
+## Add to boot.py
 
 def do_connect():
     import network
